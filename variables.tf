@@ -20,3 +20,9 @@ variable "tags" {
   description = "A mapping of tags to assign to the resource"
   default     = {}
 }
+
+variable "suffix" {
+  type        = string
+  description = "Optional suffix for resource group"
+  default     = ""
+}
