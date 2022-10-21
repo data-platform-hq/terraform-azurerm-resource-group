@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/data-platform-hq/terraform-azurerm-resource-group/compare/v1.0.0...v1.1.0) (2022-10-21)
+
+
+### Features
+
+* possibility for suffix addition ([91629f2](https://github.com/data-platform-hq/terraform-azurerm-resource-group/commit/91629f2c0725365d0888580be6d67c14e17e2890))
+
 # 1.0.0 (2022-09-28)
 
 
