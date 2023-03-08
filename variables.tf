@@ -1,4 +1,3 @@
-# Required variables
 variable "project" {
   type        = string
   description = "Project name"
@@ -14,15 +13,20 @@ variable "location" {
   description = "Azure location"
 }
 
-# Optional variables
-variable "tags" {
-  type        = map(any)
-  description = "A mapping of tags to assign to the resource"
-  default     = {}
+variable "custom_resource_group_name" {
+  type        = string
+  description = "Custom name for Resource Group"
+  default     = null
 }
 
 variable "suffix" {
   type        = string
   description = "Optional suffix for resource group"
-  default     = ""
+  default     = null
+}
+
+variable "tags" {
+  type        = map(any)
+  description = "A mapping of tags to assign to the resource"
+  default     = {}
 }
