@@ -1,3 +1,16 @@
+# [1.3.0](https://github.com/data-platform-hq/terraform-azurerm-resource-group/compare/v1.2.0...v1.3.0) (2023-03-09)
+
+
+### Bug Fixes
+
+* default value for suffix ([88b2895](https://github.com/data-platform-hq/terraform-azurerm-resource-group/commit/88b28954557b87118cffcd77a83fe3d23d1ac61a))
+* updated provider version ([69f55f9](https://github.com/data-platform-hq/terraform-azurerm-resource-group/commit/69f55f983d4ce069ef78b47d44de76e92114e376))
+
+
+### Features
+
+* added custom name for resource ([659c9eb](https://github.com/data-platform-hq/terraform-azurerm-resource-group/commit/659c9eb489db9940874587aac1dabcad5b0e1271))
+
 # [1.2.0](https://github.com/data-platform-hq/terraform-azurerm-resource-group/compare/v1.1.0...v1.2.0) (2022-10-21)
 
 
