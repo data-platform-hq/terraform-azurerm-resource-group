@@ -22,7 +22,7 @@ variable "custom_resource_group_name" {
 variable "suffix" {
   type        = string
   description = "Optional suffix for resource group"
-  default     = null
+  default     = ""
 }
 
 variable "tags" {
