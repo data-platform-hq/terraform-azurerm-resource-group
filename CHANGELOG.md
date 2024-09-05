@@ -1,3 +1,16 @@
+# [1.4.0](https://github.com/data-platform-hq/terraform-azurerm-resource-group/compare/v1.3.0...v1.4.0) (2024-09-05)
+
+
+### Bug Fixes
+
+* added security KICS scan action ([35a78c3](https://github.com/data-platform-hq/terraform-azurerm-resource-group/commit/35a78c367fcc769ebb102201b4070d68b2428bac))
+* replaced pre-commit repo docs creation/update by GH Actions ([5c962a8](https://github.com/data-platform-hq/terraform-azurerm-resource-group/commit/5c962a82ed6baeffbc91c55795ff566c7cb521b0))
+
+
+### Features
+
+* upgrade to AzureRM v4 ([cb4cb32](https://github.com/data-platform-hq/terraform-azurerm-resource-group/commit/cb4cb3229900523dbbf24320426b98d25b63b3c2))
+
 # [1.3.0](https://github.com/data-platform-hq/terraform-azurerm-resource-group/compare/v1.2.0...v1.3.0) (2023-03-09)
 
 
