@@ -33,8 +33,10 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_custom_resource_group_name"></a> [custom\_resource\_group\_name](#input\_custom\_resource\_group\_name) | Custom name for Resource Group | `string` | `null` | no |
 | <a name="input_env"></a> [env](#input\_env) | Environment name | `string` | n/a | yes |
+| <a name="input_instance_number"></a> [instance\_number](#input\_instance\_number) | Instance number of deployment | `string` | `"1"` | no |
 | <a name="input_location"></a> [location](#input\_location) | Azure location | `string` | n/a | yes |
 | <a name="input_project"></a> [project](#input\_project) | Project name | `string` | n/a | yes |
+| <a name="input_subscription_name"></a> [subscription\_name](#input\_subscription\_name) | Short name of subscription | `string` | `"dev"` | no |
 | <a name="input_suffix"></a> [suffix](#input\_suffix) | Optional suffix for resource group | `string` | `""` | no |
 | <a name="input_tags"></a> [tags](#input\_tags) | A mapping of tags to assign to the resource | `map(any)` | `{}` | no |
 

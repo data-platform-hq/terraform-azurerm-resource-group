@@ -30,3 +30,15 @@ variable "tags" {
   description = "A mapping of tags to assign to the resource"
   default     = {}
 }
+
+variable "instance_number" {
+  type        = string
+  description = "Instance number of deployment"
+  default     = "1"
+}
+
+variable "subscription_name" {
+  type        = string
+  description = "Short name of subscription"
+  default     = "dev"
+}
